@@ -278,6 +278,12 @@ input[type=radio], input[type=checkbox], input[type=submit] {
         -ms-transform: translateX(0);
             transform: translateX(0);
   }
+  .nav .animate{
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
   .nav .menu-show a {
     color: #000;
   }
