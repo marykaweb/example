@@ -7,6 +7,7 @@ console.log(btnMenu);
 
 btnMenu[0].addEventListener('click', function(){
 	menuBlock[0].classList.toggle('menu-show');
+	menuBlock[0].classList.add('animate');
 });
 
 document.addEventListener('click', e => {
